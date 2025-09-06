@@ -490,7 +490,15 @@ button {
     background: #01F0D0 0% 0% no-repeat padding-box;
     border-radius: 41px;
     opacity: 1;
+    cursor: pointer;
+}
 
+
+button:hover{
+    color: #fff;
+    background-color: #000;
+    border-color: #fff;
+    transition: 0.5s ease-in;
 }
 
 .lab-results {
